@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid #60ff92;
+}
+
+.column-container {
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+}
+
+.column-container div {
+    width: 24%;
+    height: 600px;
+    background-color: #ff6060;
+
+}
+
+.row-container .column-container {
+    justify-content: space-between;
+}
+
+.row-container .column-container div {
+    background-color: #c5ff60;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    height: 600px;
+    border-bottom: #000000 1px solid;
+}
+#red {
+    background-color: #ffd4d4;
+}
+
+#green {
+    background-color: #c6f8c6;
+}
+
+#blue {
+    background-color: #cbcbff;
+}
+
+.red-item {
+    height: 300px;
+    border: blue 1px solid;
+}
+.red-item p {
+    color: #7f81ff;
+    font-size: 40px;
+}
+.blue-item {
+    height: 300px;
+    border: #ffcc00 1px solid;
+}
+.blue-item p {
+    color: #ad32ff;
+    font-size: 40px;
+}
+.green-item {
+    height: 300px;
+    border: #27f5ff 1px solid;
+}
+.green-item p {
+    color: #ad32ff;
+    font-size: 40px;
+}
+#test {
+    color: #b4ff32;
+    background-color: #ff3f3f;
+    padding: 5px;
+}
